@@ -14,13 +14,13 @@ lex X.l [X is the file name]
 
 run yacc file
 
-yacc -d X.y
-lex X.l
-gcc y.tab.c lex.yy.c
+yacc -d X.y</br>
+lex X.l</br>
+gcc y.tab.c lex.yy.c</br>
 
 
-incase conatins math.h
-gcc y.tab.c lex.yy.c -lm
+incase conatins math.h</br>
+gcc y.tab.c lex.yy.c -lm</br>
 
 
 happy coding :)
